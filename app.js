@@ -25,10 +25,13 @@ app.use(session({
 }))
 
 app.use('/home',require('./routes/home'))
-
+//Routes
 app.get('/',(req,res) => {
      return res.redirect('/home')
 })
+app.get('/home2', function(req, res){
+	res.render('home2');
+});
 
 
 

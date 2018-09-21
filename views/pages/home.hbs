@@ -29,19 +29,38 @@
         <li data-target="#carousel-1" data-slide-to="2"></li>
     </ol>
 </div>
+<div class="container-fluid" style="background-color:#DFE2D2;">
+    <div class="container"><br>
+        <ul class="nav nav-tabs slicktabsSubs">
+            <li class="nav-item"><a style="background-color:#E0C341" class="nav-link active text-dark" role="tab" data-toggle="tab" onclick="showBreakfast();">Breakfast</a></li>
+            <li class="nav-item"><a style="background-color:#E0C341" class="nav-link text-dark" role="tab" data-toggle="tab" onclick="showLunch();">Lunch</a></li>
+            <li class="nav-item"><a style="background-color:#E0C341" class="nav-link text-dark" role="tab" data-toggle="tab" onclick="showDinner();">Dinner</a></li>
+            <li class="nav-item"><a style="background-color:#E0C341" class="nav-link text-dark" role="tab" data-toggle="tab" onclick="showSnacks();">Snacks</a></li>
+        </ul>
+    </div>
+    <div class="tab-content container">
+        <div class="tab-pane active" role="tabpanel" id="cardGrid">
+            <div class="row" id="cardRow" style="position: relative;">
+              
+            </div>
+        </div>
+    </div><br>
+</div>
 <div class="article-list" id="menu" style="background-color:#DFE2D2;">
     <div class="container">
             <div class="intro"><br>
-                <h1 class="text-center text-dark">Whats On Our Menu <i class="fa fa-heart d-inline"></i></h1>
+                <h1 class="text-center text-dark">Our Today's Menu <i class="fa fa-heart d-inline"></i></h1>
                 <p class="text-center text-dark">We Have Different Variations in HomeStyle, RiceBowls, Protein Packed and Salad Categories...</p>
             </div><br>
         <div>
-            <ul class="nav nav-tabs nav-justified">
-                <li class="nav-item" style="background-color:#56c6c6"><a class="nav-link active text-dark" role="tab" data-toggle="tab" href="#homestyle">HomeStyle</a></li>
-                <li class="nav-item" style="background-color:#56c6c6"><a class="nav-link text-dark" role="tab" data-toggle="tab" href="#rice">Rice Bowls</a></li>
-                <li class="nav-item" style="background-color:#56c6c6"><a class="nav-link text-dark" role="tab" data-toggle="tab" href="#protein">Protein Packed</a></li>
-                <li class="nav-item" style="background-color:#56c6c6"><a class="nav-link text-dark" role="tab" data-toggle="tab" href="#salads">Salads</a></li>
-            </ul>
+            <div class="col-md-12">
+                <ul class="nav nav-tabs slicktabs">
+                    <li class="nav-item"><a style="background-color:#56c6c6" class="nav-link active hvr-rotate text-dark" role="tab" data-toggle="tab" href="#homestyle">HomeStyle</a></li>
+                    <li class="nav-item"><a style="background-color:#56c6c6" class="nav-link text-dark hvr-rotate" role="tab" data-toggle="tab" href="#rice">Rice Bowls</a></li>
+                    <li class="nav-item"><a style="background-color:#56c6c6" class="nav-link text-dark hvr-rotate" role="tab" data-toggle="tab" href="#protein">Protein Packed</a></li>
+                    <li class="nav-item"><a style="background-color:#56c6c6" class="nav-link text-dark hvr-rotate" role="tab" data-toggle="tab" href="#salads">Salads</a></li>
+                </ul>
+            </div>
             <div class="tab-content">
               <div class="tab-pane active" role="tabpanel" id="homestyle">
                 <div class="row">
@@ -168,7 +187,7 @@
                 </div>
               </div>
             </div>
-        </div>
+        </div><br>
     </div>
 </div>
 <div class="article-list" id="subscriptions" style="background-color:#a0c1b8">
@@ -178,14 +197,16 @@
                 <p class="text-center text-dark">We Have Different Options for people who want to Subscribe our Means... Longer Subscription means More Offers...</p>
             </div><hr>
         <div>
-            <ul class="nav nav-tabs nav-justified">
-                <li class="nav-item"><a class="nav-link active text-dark" style="background-color:#E0C341" data-toggle="tab" role="tab" href="#three">3 Days</a></li>
-                <li class="nav-item"><a class="nav-link text-dark" style="background-color:#E0C341" data-toggle="tab" href="#five">5 Days</a></li>
-                <li class="nav-item"><a class="nav-link text-dark" style="background-color:#E0C341" role="tab" data-toggle="tab" href="#seven">7 Days</a></li>
-                <li class="nav-item"><a class="nav-link text-dark" style="background-color:#E0C341" role="tab" data-toggle="tab" href="#twenty">20 Days</a></li>
-                <li class="nav-item"><a class="nav-link text-dark" style="background-color:#E0C341" role="tab" data-toggle="tab" href="#thirty">30 Days</a></li>
-                <li class="nav-item"><a class="nav-link text-dark" style="background-color:#E0C341" role="tab" data-toggle="tab" href="#more">More Options</a></li>
-            </ul>
+            <div class="col-md-12">
+                <ul class="nav nav-tabs nav-justified slicktabsSubs">
+                    <li class="nav-item"><a class="nav-link active text-dark" style="background-color:#E0C341" data-toggle="tab" role="tab" href="#three">3 Days</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" style="background-color:#E0C341" data-toggle="tab" href="#five">5 Days</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" style="background-color:#E0C341" role="tab" data-toggle="tab" href="#seven">7 Days</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" style="background-color:#E0C341" role="tab" data-toggle="tab" href="#twenty">20 Days</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" style="background-color:#E0C341" role="tab" data-toggle="tab" href="#thirty">30 Days</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" style="background-color:#E0C341" role="tab" data-toggle="tab" href="#more">More Options</a></li>
+                </ul>
+            </div>
             <div class="tab-content">
               <div class="tab-pane active" id="three">
                 <div class="container">

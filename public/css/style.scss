@@ -4,9 +4,6 @@
 .p .kitchen-title {
     text-align: center;
 }
-.slick-prev:before, .slick-next:before { 
-    color:#E0C341 !important;
-}
 .slickslide {
     height: 200px !important;
     width: auto;
@@ -17,9 +14,22 @@
     object-fit: scale-down !important;
     margin: auto;
 }
-
-.bg-white {
-    background:#fff;
+.cardHolder{
+    position:absolute;
 }
-
-
+.cardContainer{
+    position: relative;
+}
+@media only screen and (max-width: 800px) {
+    
+}
+@media only screen and (max-width: 440px) {
+   
+}
+@media only screen and (max-width: 340px) {
+    
+}
+.slick-prev:before,
+.slick-next:before {
+    color: #E0C341!important;
+}
